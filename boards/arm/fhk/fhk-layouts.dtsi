@@ -8,9 +8,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "6 Column";
+        display-name = "Layout";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
