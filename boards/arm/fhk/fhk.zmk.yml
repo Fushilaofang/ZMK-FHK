@@ -1,0 +1,16 @@
+file_format: "1"
+id: eyelash_corne
+name: Eyelash Corne
+url: https://github.com/Fushilaofang/fhk
+type: board
+arch: arm
+features:
+  - keys
+  - display
+  - PG1316
+outputs:
+  - usb
+  - ble
+siblings:
+  - fbk_left
+  - fbk_right
