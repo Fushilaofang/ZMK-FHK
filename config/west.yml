@@ -3,9 +3,9 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
-    - name: fbk
-      url: https://github.com/Fushilaofang/zmk-fhk
-      revision: main
+    - name: ZMK-FHK
+      url: https://github.com/Fushilaofang/ZMK-FHK
+      revision: master
     - name: zmk
       remote: zmkfirmware
       revision: main
