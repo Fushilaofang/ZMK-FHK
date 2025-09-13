@@ -6,7 +6,7 @@
 if BOARD_FHK_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "FHK36"
+    default "FHK36-P"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
