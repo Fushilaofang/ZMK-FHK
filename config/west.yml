@@ -2,13 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: Fushilaofang
+      url-base: https://github.com/Fushilaofang  
   projects:
     - name: ZMK-FHK
       url: https://github.com/Fushilaofang/ZMK-FHK
       revision: master
     - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    - name: Nice!View-rotate270
+      remote: Fushilaofang
+      revision: master
   self:
     path: config
