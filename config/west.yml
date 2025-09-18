@@ -12,8 +12,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: Nice-View-rotate270
+    - name: nice-view-gem
       remote: Fushilaofang
-      revision: master
+      revision: main
   self:
     path: config
