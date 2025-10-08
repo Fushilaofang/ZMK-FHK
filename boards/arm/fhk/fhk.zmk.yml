@@ -7,7 +7,7 @@ arch: arm
 features:
   - keys
   - display
-  - PG1316
+  - azoteq-iqs5xx
 outputs:
   - usb
   - ble
