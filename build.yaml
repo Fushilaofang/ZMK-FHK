@@ -1,6 +1,6 @@
 include:
   - board: fhk_right
-    shield: nice_view_gem
+    #shield: nice_view_gem
   - board: fhk_left
     shield: nice_view_gem
     snippet: studio-rpc-usb-uart
