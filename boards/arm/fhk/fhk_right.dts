@@ -46,7 +46,7 @@
 };
 
 &i2c0 {
-    status = "okay"
+    status = "okay";
     compatible = "nordic,nrf-twi";
 	pinctrl-0 = <&i2c0_default>;
 	pinctrl-1 = <&i2c0_sleep>;
