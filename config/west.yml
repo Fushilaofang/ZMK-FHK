@@ -15,5 +15,8 @@ manifest:
     - name: nice-view-gem
       remote: Fushilaofang
       revision: main
+    - name: zmk-driver-azoteq-iqs5xx
+      remote: Fushilaofang
+      revision: main
   self:
     path: config

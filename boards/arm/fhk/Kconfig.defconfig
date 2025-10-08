@@ -18,6 +18,9 @@ if BOARD_FHK_LEFT || BOARD_FHK_RIGHT
 config BOARD
     default "fhk"
 
+config ZMK_POINTING
+    default y
+
 config ZMK_SLEEP
     default y
 
