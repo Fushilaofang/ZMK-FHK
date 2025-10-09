@@ -15,8 +15,8 @@ manifest:
       revision: main
       import: app/west.yml
     - name: nice-view-gem
-      remote: m165437
-      revision: main
+      remote: Fushilaofang
+      revision: LS013B7DH03 
     - name: nice-view-mod
       remote: dsifry
       revision: main   
