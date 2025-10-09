@@ -2,10 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: m165437
-      url-base: https://github.com/Fushilaofang
-    - name: dsifry
-      url-base: https://github.com/dsifry      
+    - name: Fushilaofang
+      url-base: https://github.com/Fushilaofang  
   projects:
     - name: ZMK-FHK
       url: https://github.com/Fushilaofang/ZMK-FHK
@@ -17,8 +15,5 @@ manifest:
     - name: nice-view-gem
       remote: Fushilaofang
       revision: LS013B7DH03 
-    - name: nice-view-mod
-      remote: dsifry
-      revision: main   
   self:
     path: config
