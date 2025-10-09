@@ -1,8 +1,10 @@
 include:
   - board: fhk_right
-    #shield: nice_view_gem
+    #shield: dongle_screen
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: fhk_left
-    shield: nice_view_gem
+    shield: dongle_screen
+    cmake-args: -DCONFIG_ZMK_SPLIT=n -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: fhk_studio_left
