@@ -7,3 +7,4 @@ include:
     artifact-name: fhk_studio_left
   - board: nrfmicro_13
     shield: settings_reset
+    artifact-name: fhk_settings_reset
