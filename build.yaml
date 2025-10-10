@@ -1,6 +1,7 @@
 include:
   - board: fhk_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: fhk_split_right
   - board: fhk_left
     shield: dongle_display
     snippet: studio-rpc-usb-uart
