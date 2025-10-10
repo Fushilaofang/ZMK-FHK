@@ -12,7 +12,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-dongle-display-bongocaat
+    - name: zmk-dongle-display-bongocat
       remote: Fushilaofang
       revision: main
     - name: zmk-driver-azoteq-iqs5xx
