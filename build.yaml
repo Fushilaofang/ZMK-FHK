@@ -7,6 +7,6 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: fhk_studio_left
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: settings_reset
     artifact-name: fhk_settings_reset
