@@ -52,7 +52,7 @@
 };
 
 / {
-    mipi_dbi_ ydp154h008_v3 {
+    mipi_dbi_ydp154h008_v3 {
 	    compatible = "zephyr,mipi-dbi-spi";
 	    spi-dev = <&spi0>;
 	    dc-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
