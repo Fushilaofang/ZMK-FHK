@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
     - name: Fushilaofang
       url-base: https://github.com/Fushilaofang  
   projects:
@@ -9,8 +9,8 @@ manifest:
       url: https://github.com/Fushilaofang/ZMK-FHK
       revision: master
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: core/move-to-zephyr-4-1
       import: app/west.yml
     - name: zmk-dongle-display-bongocat
       remote: Fushilaofang
