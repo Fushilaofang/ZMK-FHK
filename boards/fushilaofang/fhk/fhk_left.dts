@@ -53,7 +53,7 @@
 
 / {
     chosen {
-        zephyr,display = &st7305;
+        zephyr,display = &mipi_dbi_st7305;
     };
 
     mipi_dbi_st7305 {
@@ -65,7 +65,7 @@
     	#address-cells = <1>;
         #size-cells = <0>;
     
-        st7305: st7305@18 {
+        mipi_dbi_st7305: st7305@18 {
             compatible = "sitronix,st7305";
             mipi-max-frequency = <10000000>;
             reg = <18>;
