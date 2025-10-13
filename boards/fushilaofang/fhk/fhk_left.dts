@@ -54,7 +54,7 @@
 
 / {
     chosen {
-        zephyr,display = &st7305;
+        zephyr,display = &mipi_dbi_st7305;
     };
 
     mipi_dbi {
