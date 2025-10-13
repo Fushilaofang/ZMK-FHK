@@ -66,10 +66,10 @@
     	#address-cells = <1>;
         #size-cells = <0>;
     
-        mipi_dbi_st7305: st7305@18 {
+        mipi_dbi_st7305: st7305@0 {
             compatible = "sitronix,st7305";
             mipi-max-frequency = <10000000>;
-            reg = <18>;
+            reg = <0>;
             width = <200>;
             height = <200>;
             start-column = <0>;
