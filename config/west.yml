@@ -18,8 +18,5 @@ manifest:
     - name: zmk-driver-azoteq-iqs5xx
       remote: Fushilaofang
       revision: main
-    - name: ydp154h008-v3-zmk-module
-      remote: Fushilaofang
-      revision: main      
   self:
     path: config
