@@ -69,8 +69,6 @@
             compatible = "sitronix,st7305";
             mipi-max-frequency = <10000000>;
             reg = <18>;
-            dc-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
-            reset-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
             width = <200>;
             height = <200>;
             start-column = <0>;
