@@ -61,14 +61,14 @@
 	    #address-cells = <1>;
     	#size-cells = <0>;
     
-        ydp154h008_v3: st7305@18 {
+        st7305_ydp154h008_v3: st7305@18 {
             compatible = "sitronix,st7305";
             mipi-max-frequency = <10000000>;
             reg = <18>;
             dc-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
             reset-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
-            width = <204>;
-            height = <204>;
+            width = <200>;
+            height = <200>;
             start-column = <0>;
             nvm-load = [17 02];
             gate-voltages = [11 04];
