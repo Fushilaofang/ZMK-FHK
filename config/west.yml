@@ -14,12 +14,9 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-display-bongocat
       remote: Fushilaofang
-      revision: YDP154H008-V3
+      revision: Zephyr4.4
     - name: zmk-driver-azoteq-iqs5xx
       remote: Fushilaofang
-      revision: main
-    - name: ydp154h008-v3-zmk-module
-      remote: Fushilaofang
-      revision: main      
+      revision: main 
   self:
     path: config

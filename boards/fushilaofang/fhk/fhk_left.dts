@@ -43,6 +43,14 @@
     };
 };
 
+ls0xx_ls013b7dh03_spi: &spi0 {
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+};
+
 &tps43_listener {
     status = "okay";
 };
