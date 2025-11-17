@@ -80,7 +80,7 @@ st7305_spi: &spi0 {
             gate-voltages = [11 04];
             vsh = [41 41 41 41];
     	    vsl = [19 19 19 19];
-    	    shn = [41 41 41 41];
+    	    vshn = [41 41 41 41];
     	    vsln = [19 19 19 19];
             osc-settings = <0xA6>;
     	    framerate = <0x5>;
