@@ -60,6 +60,7 @@ st7305_spi: &spi0 {
 
     mipi_dbi_st7305 {
         compatible = "zephyr,mipi-dbi-spi";
+        status = "okay";
         spi-dev = <&st7305_spi>;
         dc-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
 	    reset-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
