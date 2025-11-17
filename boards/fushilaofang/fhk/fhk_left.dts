@@ -89,7 +89,7 @@ st7305_spi: &spi0 {
 		    remap-value = <0x40>;
 	        panel-settings = <0x29>;
             mipi-mode = "MIPI_DBI_MODE_SPI_4WIRE";
-         };
+        };
     };    
 };
 
