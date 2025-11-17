@@ -72,10 +72,10 @@ st7305_spi: &spi0 {
             compatible = "sitronix,st7305";
             spi-max-frequency = <10000000>;
             reg = <0>;
-            width = <200>;
-		    height = <200>;
-		    start-line = <0>;
-		    start-column = <48>;
+            width = <204>;
+		    height = <204>;
+		    start-line = <4>;
+		    start-column = <4>;
             nvm-load = [17 02];
             gate-voltages = [11 04];
             vsh = [41 41 41 41];
