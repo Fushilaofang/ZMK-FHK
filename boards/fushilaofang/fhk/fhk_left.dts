@@ -70,7 +70,7 @@
 
         mipi_dbi_st7305: st7305@0 {
             compatible = "sitronix,st7305";
-            mipi-max-frequency = <40000000>;
+            mipi-max-frequency = <10000000>;
             reg = <0>;
             width = <200>;
 		    height = <200>;
