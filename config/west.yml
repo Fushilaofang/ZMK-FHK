@@ -17,6 +17,9 @@ manifest:
       revision: Zephyr4.1
     - name: zmk-driver-azoteq-iqs5xx
       remote: Fushilaofang
-      revision: main 
+      revision: main
+    - name: ydp154h008-v3-zmk-module
+      remote: Fushilaofang
+      revision: main
   self:
     path: config
