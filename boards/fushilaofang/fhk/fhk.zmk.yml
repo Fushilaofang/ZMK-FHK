@@ -1,13 +1,11 @@
 file_format: "1"
 id: eyelash_corne
 name: Eyelash Corne
-url: https://github.com/Fushilaofang/fhk
+url: https://github.com/Fu/fhk
 type: board
 arch: arm
 features:
   - keys
-  - display
-  - azoteq-iqs5xx
 outputs:
   - usb
   - ble

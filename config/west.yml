@@ -2,21 +2,15 @@ manifest:
   remotes:
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: Fushilaofang
-      url-base: https://github.com/Fushilaofang  
+    - name: Fu
+      url-base: https://github.com/Fu 
   projects:
     - name: ZMK-FHK
-      url: https://github.com/Fushilaofang/ZMK-FHK
+      url: https://github.com/Fu/ZMK-FHK
       revision: master
     - name: zmk
       remote: petejohanson
       revision: core/move-to-zephyr-4-1
       import: app/west.yml
-    - name: zmk-dongle-display-bongocat
-      remote: Fushilaofang
-      revision: Zephyr4.1
-    - name: zmk-driver-azoteq-iqs5xx
-      remote: Fushilaofang
-      revision: main 
   self:
     path: config
