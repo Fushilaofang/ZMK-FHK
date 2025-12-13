@@ -3,10 +3,10 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: Fu
-      url-base: https://github.com/Fu 
+      url-base: https://github.com/Fushilaofang 
   projects:
     - name: ZMK-FHK
-      url: https://github.com/Fu/ZMK-FHK
+      url: https://github.com/Fushilaofang/ZMK-FHK
       revision: master
     - name: zmk
       remote: petejohanson

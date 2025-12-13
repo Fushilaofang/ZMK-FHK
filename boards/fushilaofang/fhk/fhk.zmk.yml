@@ -1,7 +1,7 @@
 file_format: "1"
-id: eyelash_corne
-name: Eyelash Corne
-url: https://github.com/Fu/fhk
+id: fhk
+name: FHK
+url: https://github.com/FuFushilaofang/fhk
 type: board
 arch: arm
 features:

@@ -1,9 +1,9 @@
 boards:
   - name: fhk_left
-    vendor: fu
+    vendor: Fushilaofang
     socs:
       - name: nrf52840
   - name: fhk_right
-    vendor: fu
+    vendor: Fushilaofang
     socs:
       - name: nrf52840
